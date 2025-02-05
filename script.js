@@ -54,7 +54,7 @@ startBtn.addEventListener('click', () => {
 
             // Check if the player didn't select anything
             if (choiceDiv.textContent === '') {
-                 document.getElementById("output_3").innerHTML = "You Lose, You Didn't Make A Choice";
+                 document.getElementById("output_3").innerHTML = "You Lose, You Didn't Make A Choice, Refresh the tab bozo";
                 return;  // Stop the rest of the logic
             }
 

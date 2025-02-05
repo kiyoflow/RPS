@@ -1,0 +1,158 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: beige;
+}
+
+#choice {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  border-style: solid;
+  border-radius: 15%;
+  font-size: 125px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#choice_2 {
+  width: 150px;
+  height: 150px;
+  background-color: #7d7d7d;
+  border-style: solid;
+  font-size: 125px;
+  border-radius: 15%;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-choice {
+  width: 100px;
+  height: 100px;
+  font-size: 45px;
+  justify-content: center;
+  margin: 25px;
+  position: fixed;
+  bottom: 20px;
+  border-radius: 20%;
+  border-width: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+}
+
+.player-choice:hover {
+  background-color: darkgray;
+  transform: scale(1.05);
+
+}
+
+#rock {
+  left: calc(50% - 200px);
+}
+
+#paper {
+  left: calc(50% - 70px);
+}
+
+#scissors {
+  left: calc(50% + 60px);
+}
+
+#startBtn {
+  background-color: #bef4be;
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: solid;
+  transition: background-color 0.3s, transform 0.2s
+  
+}
+
+#startBtn:hover {
+  background-color: #9ee59e;
+}
+
+
+#countdown {
+  font-size: 50px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+
+}
+
+#output {
+  font-size: 40px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+}
+
+#output_1 {
+  font-size: 40px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+}
+
+#output_2 {
+  font-size: 40px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+}
+
+#output_3 {
+  font-size: 40px;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #000000;
+}
+
+#play_again {
+  width: 200px;
+  height: 100px;
+  position: fixed;
+  top: 20px;
+  right: 75%;
+  transform: translateX(-50%);
+  color: #000000;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: solid;
+  transition: background-color ease 0.3s, transform 0.2s;
+  background-color: #bef4be;
+  font-size: 15px; 
+  cursor: pointer;
+  
+  
+}
+
+#play_again:hover{
+   background-color: #9ee59e;
+}

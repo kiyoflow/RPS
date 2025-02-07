@@ -4,6 +4,6 @@
 ## ⚡ Features
 Simple and intuitive gameplay\
 Randomized opponent moves\
-Countdown system for added excitement\
+Countdown system for added excitement
 ## ⚠ Important Note
 Make sure to select your choice before the countdown ends—otherwise, you'll need to refresh the tab to continue playing.
